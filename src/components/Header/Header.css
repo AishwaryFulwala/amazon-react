@@ -1,0 +1,151 @@
+.flexDirect {
+    flex-direction: row;
+    display: flex;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.mainContainer {
+    background-color: #131921;
+    height: 60px;
+    align-items: center;
+    margin: 0;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    transition: all 0.5s ease;
+    animation: smoothScroll 1s forwards;
+}
+
+.subContainer {
+    width: 20%;
+}
+
+.subEvenContainer {
+    width: 60%;
+}
+
+.logo {
+    padding-top: 10px;
+    padding-left: 23px;
+    height: 35px;
+    width: 95px;
+}
+
+.logoText {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    align-self: center;
+}
+
+.addDiv {
+    align-items: center;
+    padding-left: 30px;
+}
+
+.iconDiv {
+    align-self: flex-end;
+    padding-bottom: 5px;
+}
+
+.addTextDiv {
+    flex-direction: column;
+    display: flex;
+    padding-left: 5px;
+}
+
+.helloText {
+    color: #cccccc;
+    font-size: 12px;
+    align-self: flex-start;
+}
+
+.addText {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.searchInput {
+    padding: 10px;
+    border: none;
+    height: 12px;
+    width: 100%;
+}
+
+.searchDrop {
+    text-align: center;
+    color: #585858;
+    background-color: #f3f3f3;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: block;
+    height: 32px;
+    width: auto;
+    outline: 0;
+    border: 0;
+    line-height: 35px;
+}
+
+.searchIcon {
+    color: #ffffff;
+    padding: 3px 5px 5px 5px;
+    height: 22px;
+    background-color: #cd9042;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+.optionLineOne {
+    font-size: 12px;
+}
+
+.optionLineTwo {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.optionBasket {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.basketCount {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.secondRow {
+    background-color: #232f3e;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkText {
+    color: #ffffff;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.btnText {
+    color: #ffffff;
+    padding-left: 5px;
+}

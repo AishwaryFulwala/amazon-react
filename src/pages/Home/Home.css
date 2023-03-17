@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.img {
+    height: 50%;
+    width: 100%;
+    margin-bottom: -300px;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.linearDiv {
+    background: linear-gradient( to top, rgba(114, 198, 230, 1), rgba(114, 198, 230, 0));
+}
+
+.productContainer {
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+}

@@ -1,0 +1,32 @@
+.cart {
+    height: 100%;
+    padding: 20px;
+    background-color: white;
+}
+
+.adImg {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.cartProductDiv {
+    display: flex;
+}
+
+.cartProduct {
+    width: 70%;
+}
+
+.cartTotal {
+    width: 30%;
+}
+
+.nameTitle {
+    padding: 10px;
+}
+
+.cartTitle {
+    padding-bottom: 20px;
+    padding-left: 10px;
+    border-bottom: 1px solid lightgray;
+}
